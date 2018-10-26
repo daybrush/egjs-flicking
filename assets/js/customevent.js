@@ -16,7 +16,9 @@ var f4 = new eg.Flicking("#mflick4", {
 	circular: true,
 	duration: 300,
 	threshold: 70
-}).on({
+});
+
+f4.on({
 	beforeFlickStart: handler,
 	flick: handler,
 	flickEnd: handler,
